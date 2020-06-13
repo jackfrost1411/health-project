@@ -1,4 +1,4 @@
-# Health Management System using Blockchain
+# Smart Health Care System using Blockchain
 ### Technology : Blockchain, MongoDB, Flask, and React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
