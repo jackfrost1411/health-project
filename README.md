@@ -1,5 +1,4 @@
-# health-project
-New health management system using Blockchain, MongoDB, Flask, and React
+# New health management system using Blockchain, MongoDB, Flask, and React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
