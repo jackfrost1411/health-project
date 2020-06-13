@@ -1,0 +1,39 @@
+.details{
+	padding-left: 25%; 
+	padding-right: 25%;
+	border: 1px solid white;
+	transition: transform .2s;
+	display: flex;
+	color: #003300;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.details:hover{
+	transform: scale(1.05);
+	background-color: #ccffff;
+	color: #009999;
+}
+
+.details2{
+	color: #003300;
+	display: none;
+	font-family: helvetica;
+}
+
+.details3{
+	--color: #003333;
+	--color:yellow;
+	--background-color: lightyellow;
+	border:1px solid;
+	width: 70%;
+	--padding-left: 34%;
+	display: inline-block;
+	text-align: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.details3:hover{
+	background-color: #ffff4d;
+}

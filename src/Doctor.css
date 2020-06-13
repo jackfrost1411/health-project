@@ -1,0 +1,195 @@
+.main{
+	--text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.inputs{
+	display: inline-block;
+}
+
+.doctorip{
+  border-radius: 10px;
+  margin-bottom: 25px;
+  width: 250px;
+  height: 50px;
+}
+
+.doctorbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 60px;
+  width: 90px;
+  height: 50px;
+  border: 1px solid green;
+}
+
+.doctorbtn:hover{
+  cursor: pointer;
+  background-color: green;
+}
+
+input{
+
+  --opacity: 0.7;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 50px;
+}
+
+input[type='text']::placeholder{
+	text-align: center;
+}
+
+input[type="text"]{
+    text-align: center; 
+}
+
+.sub{
+  margin-left: 30px
+}
+
+input[type="submit"]:hover{
+	background-color: lightgreen;
+}
+
+.b{
+  position: absolute;
+  left:93%;
+  top:20px;
+  --margin-top: 40px;
+  --margin-right: 40px;
+	float: right;
+}
+
+h1{
+	margin-top: 50px;
+}
+
+.cancelback{
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+  border: 1px solid green;
+}
+
+.cancelback:hover{
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+.view11{
+  --border: 1px solid;
+  text-align: center;
+  width: 1200px;
+  --padding-bottom: 500px;
+  background-size: cover;
+}
+
+select,label{
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 17px;
+}
+
+.view1{
+  --border:1px solid;
+  color:white;
+}
+
+.doctorhome0{
+  width: 1349px;
+  background-image: linear-gradient(to bottom left, lightblue, purple);
+	--background-image: url("./Images/doctorhome3.jpg");
+  background-position: 100%;
+	background-size: cover;
+}
+
+.doctorhome1{
+	--height: 100%;
+	--width: 100%;
+	--border: 1px solid;
+	--height:620px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	--background-color: lightyellow
+}
+
+.view{
+  margin-bottom: 60px;
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  flex-wrap: wrap;
+	width: 500px
+}
+
+.c{
+  margin-left: 130px; 
+}
+
+.lds-ellipsis {
+  margin-left: 220px;
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  --top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: white;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}

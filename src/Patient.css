@@ -1,0 +1,36 @@
+.patienthome{
+	border:1px solid;
+	text-align: center;
+  background-image: linear-gradient(to bottom left, lightblue, purple);
+	--background-image: url("./Images/patientlogin.jpg");
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.h1{
+	color:white !important;
+}
+
+.cancelback{
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+  border: 1px solid green;
+}
+
+.cancelback:hover{
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+.view11{
+  --border: 1px solid;
+  text-align: center;
+  width: 1200px;
+  --padding-bottom: 500px;
+  background-size: cover;
+}

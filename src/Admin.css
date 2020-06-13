@@ -1,0 +1,29 @@
+.adminhome{
+	background-image: linear-gradient(to bottom left, lightblue, purple);
+	--background-image: url('./Images/analytics3.jpg');
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 150px;
+}
+
+.ad{
+	background-color: lightblue;
+	width: 500px;
+	margin-bottom: 40px;
+}
+
+input[type="submit"]:{
+	margin-right: 80px;
+}
+
+.i2,.i1{
+	font-size: 35px;
+	color: lightyellow;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.labels{
+	margin-top: 200px;
+}

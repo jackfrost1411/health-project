@@ -1,0 +1,81 @@
+header {
+  background-color: #333333;
+  position: fixed;
+  width:100%;
+  z-index: 5;
+}
+
+nav {
+  margin: 0;
+  padding: 20px 0;
+}
+
+nav li {
+  cursor: pointer;
+  display:inline-block;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  width:80px;
+}
+
+main {
+  text-align: center;
+  position:relative;
+  top:80px;
+}
+
+main h1 {
+  color: lightyellow;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0px;
+  padding-top: 80px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+
+
+.jumbotron {
+  height: 800px;
+  background-image: url("./Images/homeBack.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.home{
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: inline-block;
+}
+
+
+#c{
+  transition-property: width, height;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+#c:hover{
+  height: 450px;
+  width: 450px
+}
