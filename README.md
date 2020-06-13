@@ -2,8 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Screenshot of the Home page:
-![alt text](https://github.com/jackfrost1411/health-project/blob/master/Capture.PNG?raw=true)
+## Screenshot of the Home page:
+![Home page](https://github.com/jackfrost1411/health-project/blob/master/Capture.PNG?raw=true)
+
+## Screenshot of the Home page:
+![Patients' login page](https://github.com/jackfrost1411/health-project/blob/master/Capture2.PNG?raw=true)
+
+## Screenshot of the Home page:
+![Doctors' login page](https://github.com/jackfrost1411/health-project/blob/master/Capture3.PNG?raw=true)
 
 ## Available Scripts
 
