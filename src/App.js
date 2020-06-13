@@ -18,8 +18,8 @@ export class App extends Component {
 		this.state = {
 			name : 'doctor',
 			admin:false,
-			home: false,
-			login:true,
+			home: true,
+			login:false,
 			img:''
 		};
 		this.patient = this.patient.bind(this);
@@ -54,15 +54,6 @@ export class App extends Component {
 		//console.log("doctor set");
 		//console.log(this.state);
 	}
-	/*
-	login=()=>{
-		const bt = findDOMNode(this.refs.btn);
-		$(bt).css({'backgroundColor':'#ffff99',"color":'black'});
-		this.setState({
-			login: true
-		});
-	}*/
-
 	backtomain(){
 		this.setState({
 			name : '',
@@ -79,17 +70,6 @@ export class App extends Component {
 			admin:true
 		})
 
-	}
-
-	async componentDidMount(){
-		/*await axios.post('http://localhost:8000/graph/').then(
-			json=>{
-				console.log(json)
-				this.setState({
-					img: `data:image/png;base64, ${json.data}`
-				})
-			})*/
-		//console.log(this.state.img)
 	}
 
   	render(){
@@ -128,17 +108,9 @@ export class App extends Component {
 
     	return (
     		<div>
-    			<BrowserRouter>
-					            	<Link to="/about"><li> About </li></Link>
-					            	<Switch>
-					            		<Route path="/about">
-            								<Admin back={this.backtomain}/>		
-          								</Route>
 				{this.state.admin ? <Admin back={this.backtomain}/> : ''}
 			  	{this.state.home ? home : '' }
 			  	{this.state.login? <Login back={this.backtomain} name={this.state.name}/> : ''}
-					            	</Switch>
-					            </BrowserRouter>
 			</div>
 		)
 	}

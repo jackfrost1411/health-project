@@ -11,7 +11,7 @@ export class Login extends Component {
     constructor(props){
         super(props);
         this.state={
-            authorize: true,
+            authorize: false,
             user_id: '',
             username: '',
             patient_email: '',
@@ -86,7 +86,7 @@ export class Login extends Component {
               'border' : '1px solid black'
         }
 
-        let heading = (<h1 style={{'color':'white'}}>Patients Login</h1>);
+        let heading = (<h1 style={{'color':'white'}}>Patients' Login</h1>);
         let heading1 = (<h1>Doctors' Login</h1>);
         let img = (<img src={d} height="200" width="200" alt="doctors'login"/>)
         let img2 = (<img src={p} height="200" width="200" alt="patients'login"/>)
