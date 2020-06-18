@@ -1,5 +1,5 @@
 # New health management system using Blockchain, MongoDB, Flask, and React
-## Contributors of the project: [Dhruvil Shah](github.com/jackfrost1411), [Nihar Patel](github.com/niharpatel1999), [Foram Patel](github.com/foramp15), [Deep Patel](github.com/deeppatel4557)
+## Contributors of the project: [Dhruvil Shah](https://github.com/jackfrost1411), [Nihar Patel](https://github.com/niharpatel1999), [Foram Patel](https://github.com/foramp15), [Deep Patel](https://github.com/deeppatel4557)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
